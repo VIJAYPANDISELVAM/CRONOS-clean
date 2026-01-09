@@ -1,0 +1,10 @@
+{
+  "contract_id": "price_discount_v1",
+  "description": "Discount applies for price >= 1000",
+  "rule": "price >= 1000",
+  "tests": [
+    { "input": 1000, "expected": 900 },
+    { "input": 500, "expected": 500 }
+  ],
+  "allow_execution": false
+}
